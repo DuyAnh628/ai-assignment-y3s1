@@ -50,6 +50,7 @@ if __name__ == "__main__":
         print(f"Number of resource bounds (m)  : {m}")
         print(f"Utility scores shape (p_j)     : {utilities.shape}")
         print(f"Resource demands shape (r_ij)  : {demands.shape}")
+        print(demands)
         print(f"Capacity limits (b_i)          : {capacities}")
     except FileNotFoundError:
         print(f"Please provide a valid path to '{sample_file}'.")
